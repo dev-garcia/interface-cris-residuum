@@ -87,13 +87,13 @@ export class EmpresasComponent implements OnInit {
     };
   }
   editarEmpresa(id: number): void {
-      // Abrir o modal
-  let modal = document.getElementById('editarEmpresaModal');
-  if(modal) {
-    modal.style.display = 'block';
-  } else {
-    console.error('Modal element not found');
-  }
+    // Abrir o modal
+    let modal = document.getElementById('editarEmpresaModal');
+    if (modal) {
+      modal.style.display = 'block';
+    } else {
+      console.error('Modal element not found');
+    }
   }
 
   excluirEmpresa(id: number): void {

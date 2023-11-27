@@ -33,6 +33,8 @@ import { ListarEmpresasComponent } from './pages/listar-empresas/listar-empresas
 import { UsuariosComponent } from './components/usuarios/usuarios.component';
 import { ListarUsuariosComponent } from './pages/listar-usuarios/listar-usuarios.component';
 import { FormEditarEmpresasComponent } from './components/form-editar-empresas/form-editar-empresas.component';
+import { MenuEventosComponent } from './components/side-nav/menu-eventos/menu-eventos.component';
+import { FeiraDoPolo2023Component } from './components/side-nav/menu-eventos/feira-do-polo-2023/feira-do-polo-2023.component';
 
 @NgModule({
   declarations: [
@@ -57,6 +59,8 @@ import { FormEditarEmpresasComponent } from './components/form-editar-empresas/f
     UsuariosComponent,
     ListarUsuariosComponent,
     FormEditarEmpresasComponent,
+    MenuEventosComponent,
+    FeiraDoPolo2023Component,
   ],
   imports: [
     BrowserModule,

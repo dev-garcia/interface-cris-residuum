@@ -17,7 +17,7 @@ export class LoginComponent {
         senha: this.formData.senha,
       };
 
-      fetch('http://localhost:8080/login', {
+      fetch('http://localhost:8080/login/usuario', {
         method: 'POST',
         body: JSON.stringify(jsonData),
         headers: {
