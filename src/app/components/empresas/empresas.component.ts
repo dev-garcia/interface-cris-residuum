@@ -19,8 +19,8 @@ export class EmpresasComponent implements OnInit {
 
     this.dtOptions = {
       pagingType: 'full_numbers',
-      pageLength: 5,
-      lengthMenu: [5, 10, 25, 50, 100],
+      pageLength: 1,
+      lengthMenu: [1, 2, 25, 50, 100],
       processing: true,
       language: {
         url: 'https://cdn.datatables.net/plug-ins/1.11.3/i18n/pt_br.json',
